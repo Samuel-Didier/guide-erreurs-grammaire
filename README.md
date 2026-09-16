@@ -1,26 +1,45 @@
-# Guide des erreurs de grammaire — jeu de données
+# Tableau des types de fautes — jeu de données
 
-Jeu de données CSV extrait du PDF fourni par Samuel-Didier, intitulé « Tableau des types de fautes » (fichier source : Adobe Scan 16 sept. 2026.pdf). Le document couvre 47 entrées : 6 règles de grammaire (G1–G6), 19 règles de ponctuation/typographie (P1–P19), 12 règles de syntaxe (S1–S12), 3 règles d’orthographe d’usage (U1–U3) et 7 règles de vocabulaire (V1–V7).
+Ce dépôt contient une transcription structurée du PDF fourni par Samuel-Didier : « Tableau des types de fautes » (`2beb0857-0808-5c1a-b44f-dbeccf3ec35d`).
 
-## Fichier
+## Hiérarchie exacte du document
 
-`guide_erreurs_grammaire.csv`, encodage UTF-8, séparateur virgule.
+Le PDF est organisé comme un tableau à quatre niveaux de colonnes :
+
+1. `categorie_id` / `categorie` : grande catégorie d'erreur.
+2. `code` : code exact de la règle dans la catégorie.
+3. `regle` : règle et formulation descriptive.
+4. `exemples_incorrects` / `exemples_corrects` : exemples signalés par X et v dans le PDF.
+
+Catégories présentes :
+
+- `G` — Orthographe grammaticale : G1 à G6
+- `P` — Ponctuation et typographie : P1 à P19
+- `S` — Syntaxe : S1 à S12
+- `U` — Orthographe d'usage : U1 à U3
+- `V` — Vocabulaire : V1 à V7
+
+Le code est donc distinct de la catégorie : par exemple `P` est le `categorie_id`, « Ponctuation et typographie » est le libellé de catégorie, et `P3` est le `code` de la règle concernée.
+
+## Fichier principal
+
+`guide_erreurs_grammaire.csv` est encodé en UTF-8 et utilise la virgule comme séparateur.
 
 Colonnes :
-- `id` : identifiant de la règle dans le PDF.
-- `categorie` : domaine linguistique.
-- `titre` : intitulé de la règle.
-- `regle` : formulation de la règle.
-- `explication` : explications associées lorsqu’elles sont disponibles.
-- `exemples_incorrects` : exemples fautifs, séparés par ` | ` lorsque plusieurs exemples sont regroupés.
-- `corrections` : corrections correspondantes.
-- `remarques` : notes complémentaires ou limites indiquées dans la source.
-- `page_section` : page(s) ou section d’origine.
 
-## Note de fidélité
+- `categorie_id` : identifiant court exact de la catégorie (`G`, `P`, `S`, `U`, `V`).
+- `categorie` : libellé de la catégorie.
+- `code` : code exact de la règle (`G1`, `P1`, etc.).
+- `regle` : texte de la règle.
+- `explication` : description ou précision associée.
+- `exemples_incorrects` : exemples fautifs, correspondant aux formes marquées X.
+- `exemples_corrects` : corrections, correspondant aux formes marquées v.
+- `source_pages` : pages du PDF utilisées.
 
-L’extraction a été réalisée par analyse du PDF. Pour certaines règles de ponctuation/typographie, le contenu récupéré indique explicitement « voir document source » au lieu de restituer les exemples détaillés; ces marqueurs ont été conservés plutôt que d’inventer des données. Les exemples sont conservés dans la langue et avec la ponctuation retournées par l’extraction, y compris les cas où l’exemple fautif/corrigé semble identique ou présente une anomalie de transcription.
+Chaque ligne correspond à une règle du tableau source, et non à une catégorie indépendante.
 
-## Source
+## Source et fidélité
 
-PDF média fourni par l’utilisateur : `2beb0857-0808-5c1a-b44f-dbeccf3ec35d`.
+La structure a été vérifiée par analyse directe du PDF. Le PDF utilise les marqueurs X et v pour distinguer les formes fautives et corrigées. Les textes sont conservés autant que possible tels qu'extraits; les anomalies d'OCR ou les exemples présentés comme modèles plutôt que comme paires fautif/correct sont signalés dans les champs concernés.
+
+Le fichier `guide_erreurs_grammaire_exemples_complets.csv` contient une sélection détaillée issue de l'analyse précédente; le fichier principal ci-dessus est désormais la référence unifiée et hiérarchique du dépôt.
