@@ -1,0 +1,82 @@
+TABLEAU DES TYPES DE FAUTES — VERSION ADAPTÉE AU PDF SOURCE
+
+Source : Adobe Scan 16 sept. 2026.pdf (média 2beb0857-0808-5c1a-b44f-dbeccf3ec35d)
+
+STRUCTURE DU PDF
+G — Orthographe grammaticale
+G1 Accord dans le groupe nominal
+G2 Accord du pronom
+G3 Conjugaison du verbe
+G4 Accord du participe passé
+G5 Homophone
+G6 Mot invariable
+
+P — Ponctuation et typographie
+P1 Virgule; P2 Ponctuation finale de la phrase; P3 Deux-points; P4 Point-virgule; P5 Guillemets français et anglais; P6 Crochets; P7 Parenthèses; P8 Tiret; P9 Barre oblique; P10 Citation; P11 Lettre majuscule ou minuscule; P12 Élision; P13 Abréviation; P14 Titre d’ouvrage; P15 Signe en début ou en fin de ligne; P16 Coupure de mot; P17 Trait d’union; P18 Accent, tréma ou cédille; P19 Autre erreur de ponctuation ou de typographie.
+
+S — Syntaxe
+S1 Phrase négative; S2 Phrase restrictive; S3 Phrase incomplète; S4 Préposition; S5 Liaison d’éléments syntaxiques; S6 Reprise pronominale; S7 Correspondance des temps de verbes; S8 Sujet de la phrase principale; S9 Choix de l’auxiliaire; S10 Citation; S11 Choix du déterminant; S12 Déformation de la phrase.
+
+U — Orthographe d’usage : U1 Orthographe du mot; U2 Orthographe de la locution ou de l’expression; U3 Coquille.
+V — Vocabulaire : V1 Impropriété lexicale; V2 Anglicisme; V3 Pléonasme ou redondance; V4 Vocabulaire répétitif; V5 Barbarisme; V6 Registre de langue; V7 Archaïsme.
+
+RÈGLES ET SOUS-CODES DU PDF
+
+G1.1 Déterminant accordé en genre et en nombre avec le nom. Exemple : « un échappatoire » → « une échappatoire ».
+G1.2 Complément du nom au singulier ou au pluriel selon le sens. « six ans d’expériences » → « six ans d’expérience ».
+G1.3 Adjectif accordé avec le mot qualifié. « la communauté international » → « la communauté internationale ».
+G1.4 Accord particulier dans le groupe nominal; vérifier les déterminants numéraux, noms composés et adjectifs de couleur. « Deux pauses-cafés » → « Deux pauses-café ».
+G2.1 Le pronom s’accorde avec son groupe de référence. « L’hémoglobine qu’elles contiennent » → « L’hémoglobine qu’ils contiennent ».
+G3.1 Le verbe conjugué à un temps simple s’accorde avec son sujet.
+G3.2 Le verbe à l’infinitif est invariable; distinguer mordre/mordu. « Il faudra augmenté » → « Il faudra augmenter ».
+G3.3 Le participe présent est invariable. « les gens visitants » → « les gens visitant ».
+G4.1 La terminaison du participe passé dépend du groupe verbal.
+G4.2 Le participe passé employé seul s’accorde avec le mot accompagné.
+G4.3 Avec être, le participe passé s’accorde avec le sujet.
+G4.4 Avec avoir, accord avec le complément direct placé avant; sinon invariable.
+G4.5 Avec un verbe essentiellement pronominal, accord avec le sujet.
+G4.6 Avec un verbe occasionnellement pronominal, appliquer la position du complément direct.
+G4.7 Certains emplois obéissent à une règle particulière : « les tempêtes qu’il y a eues » → « les tempêtes qu’il y a eu ».
+G5.1 Corriger l’homophone par sa catégorie grammaticale ou un truc de substitution.
+G6.1 Les conjonctions et locutions conjonctives sont invariables.
+G6.2 L’adverbe est invariable : « ensembles » → « ensemble », « en générale » → « en général ».
+G6.3 La préposition est invariable.
+G6.4 Certains noms propres sont invariables : « Les Simards » → « Les Simard ».
+
+P1.1 à P1.11 : règles du PDF relatives aux marqueurs de relation, coordonnants, compléments de phrase, compléments du nom, énumérations, explications, éléments mis en relief, séparation fautive du verbe et de ses compléments ou modificateurs. Exemple : « elle parle, très lentement, » → « elle parle très lentement ».
+P2 : point, point d’exclamation, point d’interrogation et points de suspension selon le type de phrase.
+P3 : deux-points pour citation, explication, énumération ou exemple; ne pas les employer après « soit », « comme », « tel que », « car », etc.
+P4.1–P4.2 : point-virgule entre phrases indépendantes liées et dans une énumération verticale.
+P5 : guillemets français pour citations, mots étrangers, registres différents ou mise en évidence; citation en retrait généralement sans guillemets.
+P6.1–P6.3 : crochets pour modifications, coupures [...] et insertion dans des parenthèses; éviter [...] en début ou fin d’une citation fusionnée.
+P7.1–P7.3 : parenthèses pour explication, alternative et référence.
+P8.1–P8.3 : tiret pour références, changement d’interlocuteur et incise.
+P9 : barre oblique pour séparation ou opposition.
+P10.1–P10.7 : fidélité à la ponctuation et aux majuscules du texte cité; règles des citations fusionnées, coupures, citations finales et vers.
+P11.1–P11.2 : majuscule pour début de phrase, noms propres, périodes historiques, titres d’œuvres et peuples; minuscule pour noms communs, adjectifs, mots après deux-points, courants littéraires et religions selon le cas.
+P12.1 : élision devant voyelle ou h muet : « si il » → « s’il ».
+P13 : abréviations conformes aux conventions.
+P14.1–P14.2 : titre d’ouvrage complet souligné ou en italique; partie d’ouvrage entre guillemets.
+P15.1–P15.2 : règles des signes en début/fin de ligne et de l’inséparabilité du mot élidé.
+P16.2 : coupure entre syllabes avec trait d’union.
+P17.1–P17.4 : trait d’union dans l’impératif, l’inversion et ci/là; retirer le trait fautif.
+P18.2–P18.3 : accents selon l’orthographe; cédille devant a, o, u.
+P19.1–P19.3 : nombres en lettres sous 10 dans les textes, chiffres dans tableaux/textes scientifiques et correction des autres erreurs typographiques.
+
+S1.1–S1.2 : ne avec pas, plus, aucun, jamais, personne, etc.; au maximum deux marqueurs de négation.
+S2 : ne…que signifie « seulement »; éviter le pléonasme avec « seulement ».
+S3.1–S3.3 : phrase complète avec verbe conjugué, verbe principal, sujet et compléments obligatoires.
+S4.1–S4.3 : choisir, supprimer ou ajouter la préposition requise.
+S5.1–S5.3 : éléments coordonnés de fonction et catégorie équivalentes; répéter à, de et en lorsque nécessaire.
+S6.1–S6.7 : antécédent identifiable, pronom ni manquant ni superflu, choix correct des relatifs/personnels et « ce qu’il » avec les verbes impersonnels.
+S7 : rapport temporel logique entre propositions.
+S8.1–S8.3 : même sujet logique pour participe présent et infinitif; adjectif cohérent avec la phrase.
+S9.1–S9.2 : choisir être ou avoir selon le verbe.
+S10.1–S10.3 : citation correctement intégrée, coupure syntaxiquement complète et retranscription fidèle.
+S11.1–S11.6 : déterminants possessifs, définis, démonstratifs et répétition cohérente dans les énumérations.
+S12.1–S12.9 : éviter l’oralité fautive après au/quand/comment/pourquoi, corriger les liaisons, euphoniques, comparaisons, tel que/comme et améliorer la lisibilité.
+
+U1–U3 : vérifier l’orthographe du mot ou de la locution dans un dictionnaire et corriger les coquilles.
+V1–V7 : corriger impropriété, anglicisme, pléonasme, répétition, barbarisme, registre inadapté et archaïsme.
+
+ANNEXES DU PDF : I terminaisons verbales; II terminaisons des participes passés; III accord du participe passé; IV homophones; V connecteurs textuels; VI verbes pour la rédaction; VII méthode d’autocorrection.
